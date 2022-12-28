@@ -38,6 +38,7 @@ public class Transaction2 {
         {
             System.out.println("Rolling Back To SavePoint");
             connection.rollback(savepoint);
+            connection.commit();
         }
     }
 }
