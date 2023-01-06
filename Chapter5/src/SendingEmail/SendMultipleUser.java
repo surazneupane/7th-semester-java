@@ -10,7 +10,7 @@ public class SendMultipleUser {
 
 //        sender
         final String username = "suraznep@gmail.com";//change accordingly
-        final String password = "wfszlourssbhzqdg";//change accordingly
+        final String password = "";//change accordingly
 
 //        receiver
         String to = "suraznep@yopmail.com,suraznep1@yopmail.com,suraznep2@yopmail.com";//change accordingly

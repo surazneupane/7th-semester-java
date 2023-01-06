@@ -10,7 +10,7 @@ public class SendMail {
 
 //        sender
         final String username = "suraznep@gmail.com";//change accordingly
-        final String password = "wfszlourssbhzqdg";//change accordingly
+        final String password = "";//change accordingly
 
 //        receiver
         String to = "suraznep@gmail.com";//change accordingly
