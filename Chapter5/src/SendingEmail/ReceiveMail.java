@@ -18,7 +18,7 @@ public class ReceiveMail {
         POP3Store emailStore = (POP3Store) emailSession.
                 getStore("pop3s");
         emailStore.
-                connect("suraznep@gmail.com","");
+                connect("suraznep@gmail.com","dnnndizthrmbzdyd");
 
 // abstract class that represents a folder for mail messages
 //        create a folder and open it
