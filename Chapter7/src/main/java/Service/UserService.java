@@ -4,6 +4,7 @@ import Model.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UserService {
@@ -21,6 +22,25 @@ public class UserService {
             return true;
         }
         return false;
+    }
+
+
+    public User login(User user) throws SQLException {
+        String query = "SELECT * FROM users WHERE email=? AND password=?";
+        Connection connection = dbConnection.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(query);
+        preparedStatement.setString(1, user.getEmail());
+        preparedStatement.setString(2, user.getPassword());
+
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        if (resultSet.next()) {
+            user.setId(resultSet.getInt("id"));
+            user.setName(resultSet.getString("name"));
+            return user;
+        }
+
+        return null;
     }
 
 }
