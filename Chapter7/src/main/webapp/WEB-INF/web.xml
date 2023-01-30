@@ -41,4 +41,14 @@ so give header like this 2.4 for false
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>dashboard</servlet-name>
+        <servlet-class>Controller.DashboardServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dashboard</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
 </web-app>

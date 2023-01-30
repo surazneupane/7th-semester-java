@@ -11,9 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c6fd256-76c6-43ab-8e4a-19bb7e5a6485" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Chapter7:war" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -188,7 +190,10 @@
       <workItem from="1674059702993" duration="5114000" />
       <workItem from="1674094484630" duration="4056000" />
       <workItem from="1674098873664" duration="671000" />
-      <workItem from="1674143506991" duration="254000" />
+      <workItem from="1674143506991" duration="359000" />
+      <workItem from="1674176818265" duration="5378000" />
+      <workItem from="1674999876684" duration="6114000" />
+      <workItem from="1675040696456" duration="2671000" />
     </task>
     <servers />
   </component>
