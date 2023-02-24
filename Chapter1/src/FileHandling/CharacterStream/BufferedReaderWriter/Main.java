@@ -1,4 +1,4 @@
-package FileHandling.LineByLine;
+package FileHandling.CharacterStream.BufferedReaderWriter;
 
 import java.io.*;
 

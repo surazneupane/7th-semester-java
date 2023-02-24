@@ -21,7 +21,6 @@ public class MenuExample {
         menu3.disable();
         jMenuBar.add(menu3);
 
-
         jFrame.setJMenuBar(jMenuBar);
         jFrame.setVisible(true);
         jFrame.setSize(400,400);

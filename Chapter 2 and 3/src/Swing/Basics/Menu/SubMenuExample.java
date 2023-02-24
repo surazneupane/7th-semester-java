@@ -32,10 +32,8 @@ public class SubMenuExample {
         subMenu.add(sub2);
 
         jMenu.add(subMenu);
-
-
-
         jMenuBar.add(jMenu);
+
         jFrame.setJMenuBar(jMenuBar);
         jFrame.setVisible(true);
         jFrame.setLayout(null);
