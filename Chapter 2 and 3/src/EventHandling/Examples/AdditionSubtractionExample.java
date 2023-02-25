@@ -61,7 +61,7 @@ public class AdditionSubtractionExample extends JFrame {
 
     private class CustomClickEvent extends MouseAdapter{
         @Override
-        public void mouseEntered(MouseEvent e) {
+        public void mouseClicked(MouseEvent e) {
                 try {
                     Integer input1Value = Integer.parseInt(input1.getText());
                     Integer input2Value = Integer.parseInt(input2.getText());
