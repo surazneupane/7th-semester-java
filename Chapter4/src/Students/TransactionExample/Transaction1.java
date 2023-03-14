@@ -17,10 +17,12 @@ public class Transaction1 {
                     "INTO students(name,age,batch) " +
                     "VALUES ('Radha',12,2014)";
             statement.execute(insertQuery);
+
             String malformedInsertQuery = "INSERTING " +
                     "INTO students(name,age,batch) " +
                     "VALUES ('Madhu',13,2015)";
             statement.execute(malformedInsertQuery);
+
             connection.commit();
 
         } catch (SQLException e) {
